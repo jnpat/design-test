@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Test</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/88dfe94bff.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!--------- TOPPAGE --------->
+    <div class="topweb">
+      <div class="wrapper">
+        <h6><span id="star"></span> Klanten waarderen ons met een 9.1!</h6>
+        <h6 class="truck">
+          <span><i class="fa fa-truck" aria-hidden="true"></i></span> Gratis
+          bezorging door heel Nederland
+        </h6>
+        <h6 class="store">
+          <span><i class="fa fa-store" aria-hidden="true"></i></span>
+          Bezoek onze showroom
+        </h6>
+      </div>
+    </div>
+    <!--------- TOPPAGE --------->
+
+    <!--------- NAVBAR --------->
+    <header>
+      <div class="wrapper">
+        <div class="bars" id="bars">
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+          <div class="sub-search"><i class="fa fa-search"></i></div>
+        </div>
+        <div class="logo"><img src="icons/logo.svg" /></div>
+        <ul class="navbar" id="NavBar">
+          <div class="times" id="times">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+          </div>
+          <li><a href="">EXCLUSIEVE TUINMEUBELEN</a></li>
+          <li><a href="">LUXE LOUNGEMEUBELEN</a></li>
+          <li><a href="">MATERIALEN</a></li>
+          <li><a href="">TUINACCESSOIRES</a></li>
+          <li><a href="">OVER ONS</a></li>
+        </ul>
+        <div class="setting">
+          <div class="lang">
+            <h6>NL</h6>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div class="search">
+            <div class="subsub-search"><i class="fa fa-search"></i></div>
+            <i class="fa fa-heart"></i>
+            <i class="fas fa-shopping-basket"></i>
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------- NAVBAR --------->
+
+    <!--------- FIRSTBOX --------->
+    <div class="grid-row-web">
+      <div class="grid-col-web">
+        <img src="bg/bg2.svg" alt="" />
+        <div class="dot-1"><img src="icons/dot.svg" /></div>
+        <div class="item-show-1">
+          <div class="item-show-img-1">
+            <img src="items/popup.svg" />
+          </div>
+          <h6>Luxe loungeset teak KOEN</h6>
+          <h5>6.225,-</h5>
+        </div>
+      </div>
+      <div class="grid-col-web">
+        <img src="bg/bg1.svg" alt="" />
+        <div class="dot-2"><img src="icons/dot.svg" /></div>
+        <div class="item-show-2">
+          <div class="item-show-img-2">
+            <img src="items/popup.svg" />
+          </div>
+          <h6>Luxe loungeset teak KOEN</h6>
+          <h5>6.225,-</h5>
+        </div>
+      </div>
+      <div class="content-logo">
+        <img src="icons/logo2.svg" />Luxe design tuinmenubelen
+      </div>
+      <div class="button-row">
+        <div class="button-active">
+          <a href="https://www.nmoss.com/exclusieve-tuinmeubelen/"
+            >Bekijk onze tuinmeubelen</a
+          >
+        </div>
+        <div class="button-transparent">
+          <a
+            href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.nmoss.com%2Fluxe-loungemeubelen%2F"
+            >Bekijk onze loungemeubelen</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-ipad">
+      <img src="bg/bg_ipad.svg" />
+      <div class="content-logo">
+        <img src="icons/logo2.svg" />Luxe design tuinmenubelen
+      </div>
+      <div class="button-row">
+        <div class="button-active">
+          <a href="https://www.nmoss.com/exclusieve-tuinmeubelen/"
+            >Bekijk onze tuinmeubelen</a
+          >
+        </div>
+        <div class="button-transparent">
+          <a
+            href="https://www.figma.com/exit?url=https%3A%2F%2Fwww.nmoss.com%2Fluxe-loungemeubelen%2F"
+            >Bekijk onze loungemeubelen</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-mobile">
+      <div class="grid-mobile-img">
+        <img src="bg/bg1_mobile.svg" />
+        <div class="content-logo">
+          <img src="icons/logo2.svg" />Luxe design tuinmenubelen
+        </div>
+      </div>
+      <div class="grid-row-mobile">
+        <div class="grid-col-mobile">
+          <img src="bg/bg2_mobile.svg" />
+          <div class="content">Bekijk onze collectie</div>
+          <div class="sub-content">TUINMEUBELEN</div>
+        </div>
+        <div class="grid-col-mobile">
+          <img src="bg/bg2_mobile.svg" />
+          <div class="content">Bekijk onze collectie</div>
+          <div class="sub-content">TUINMEUBELEN</div>
+        </div>
+      </div>
+    </div>
+    <!--------- FIRSTBOX --------->
+    <!--------- ITEMBOX --------->
+    <div class="item-box">
+      <div class="item-header">
+        <h6>Een greep uit onze</h6>
+        <h4>&MOSS COLLECTIE</h4>
+        <div class="line"></div>
+      </div>
+      <div class="item-list" id="items"></div>
+      <div class="item-slider">
+        <h5>1</h5>
+        <h6>/</h6>
+        <h6>10</h6>
+        <i class="fa fa-chevron-left fa-lg" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right fa-lg" aria-hidden="true"></i>
+      </div>
+    </div>
+    <!--------- ITEMBOX --------->
+    <script src="script.js"></script>
+  </body>
+</html>

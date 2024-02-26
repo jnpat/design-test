@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Low dining tuinset 6 personen ALFA",
+        "price": "8.545,-",
+        "img": "items/item1.svg",
+        "tag": ""
+    },
+    {
+        "id": 2,
+        "name": "Luxe loungeset tuin KOEN",
+        "price": "8.545,-",
+        "img": "items/item2.svg",
+        "tag": "Bestseller"
+    },
+    {
+        "id": 3,
+        "name": "Luxe loungestoel teak BENTE",
+        "price": "1.395,-",
+        "img": "items/item3.svg",
+        "tag": "Musthave"
+    },
+    {
+        "id": 4,
+        "name": "Rond daybed buiten FLORENCE",
+        "price": "795,-",
+        "img": "items/item4.svg",
+        "tag": ""
+    }
+]
