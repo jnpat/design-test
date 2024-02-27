@@ -489,9 +489,8 @@ header .wrapper .lang i {
   }
 
   .content-logo {
-    top: 35%;
+    top: 25%;
     left: 0;
-    font-size: 18px;
   }
 
   .content-logo img {
@@ -543,8 +542,8 @@ header .wrapper .lang i {
   /* -- FIRSTBOX -- */
 
   /* -- ITEMBOX -- */
-  .line {
-    margin: 15px 35%;
+  .item-header .line {
+    margin: 15px 38%;
   }
 
   .item-list {
