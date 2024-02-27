@@ -1,5 +1,5 @@
-:root {
-  color: white;
+body {
+  background-color: white;
 }
 
 * {
@@ -336,7 +336,7 @@ header .wrapper .lang i {
   display: inline-flex;
   position: absolute;
   right: 0;
-  padding: 3% 3%;
+  padding: 3% 3% 8% 3%;
 }
 
 .item-slider h5 {
